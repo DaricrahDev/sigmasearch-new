@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+	font-family: 'Poppins';
+}
+
+*::selection {
+	background-color: purple;
+	color: #fff;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.logo_container {
+	text-align: left;
+}
+
+main {
+	text-align: center;
+	position: relative;
+}
+
+.search-icon {
+	border: none;
+	position: relative;
+	top: 120px;
+	right: 400px;
+	bottom: 5px;
+	background-color:  #00000000;
+}
+
+.search-icon:hover {
+	background-color:  #00000000;
+	color: #000;
+}
+
+.down {
+	position: relative;
+	bottom: 30px;
+}
+
+.navb {
+	text-decoration: none;
+	margin-left: 10px;
+	--s: 0.1em; 
+	--c: #000000;
+	
+	color: #0000;
+	padding-bottom: var(--s);
+	background: 
+	  linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+	  linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+	-webkit-background-clip: text,padding-box;
+			background-clip: text,padding-box;
+	transition: 0.5s;
+}
+
+.navb:hover {
+	--_p: 100%
+}
+
+.icon-night {
+	text-align: right;
+	color: #000;
+	transition: all 0.5s ease-in-out;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+	background-color: #F5F5F5;
+}
+
+button {
+	padding: 10px 30px;
+	background-color: rgb(255, 255, 255);
+	border: 2px solid;
+	border-radius: 30px;
+	font-weight: bold;
+	transition: all 0.3s ease;
+}
+
+button:hover {
+	color: white;
+	background-color: #000;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.changelog-item {
+	background-color: rgba(0, 0, 0, 0.432);
+	width: 70%;
+	padding: 10px;
+	border-radius: 20px;
+	margin: auto;
+	transition: all 0.3s ease;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.web-container {
+	padding: 10px, 10px;
+}
+
+.changelog-item:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
